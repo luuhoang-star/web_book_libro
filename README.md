@@ -25,9 +25,10 @@
 
 <img width="1920" height="954" alt="admin" src="https://github.com/user-attachments/assets/d31e4ff1-0cce-4dca-b42e-038eb9d8d43d" />
 
-> 📌 *Lưu ý: nếu ảnh không hiển thị, hãy đảm bảo bạn đã upload ảnh vào repo theo đường dẫn `images/`.*
-
 ---
+[Uploading WD-19_DATN2025 (1).pdf…]()
+
+Báo cáo:
 
 ## ⚙️ Hướng dẫn cài đặt
 
