@@ -1,24 +1,67 @@
-📚 DỰ ÁN: Website Bán Sách Libro
-🛒 Mô tả
-Libro là một website thương mại điện tử đơn giản giúp người dùng:
+# 📚 DỰ ÁN: Website Bán Sách - **LIBRO**
 
-Duyệt và tìm kiếm sách theo thể loại, tên sách, tác giả
+---
 
-Thêm sách vào giỏ hàng
+## 🛒 Giới thiệu
 
-Đăng ký / Đăng nhập tài khoản
+**Libro** là một website thương mại điện tử đơn giản hỗ trợ người dùng:
 
-Đặt hàng và theo dõi đơn hàng
+- 🔍 Tìm kiếm sách theo **thể loại**, **tên sách**, hoặc **tác giả**
+- 🛒 Thêm sách vào **giỏ hàng**, cập nhật và xóa
+- 👤 Đăng ký / Đăng nhập tài khoản
+- 📦 Đặt hàng và theo dõi đơn hàng
+- 🧑‍💼 Quản trị viên: Quản lý sách, người dùng và đơn hàng
 
-Quản lý sản phẩm và đơn hàng (trang admin)
+---
 
-🖥️ Giao diện
-Tổng quan giao diện client:
-<img width="1193" height="2048" alt="trangchur" src="https://github.com/user-attachments/assets/e7df8e95-6061-4770-b631-51bccb12dfe9" />
+## 🖥️ Giao diện
 
-Các chức năng trang quản trị:
-<img width="1920" height="954" alt="admin" src="https://github.com/user-attachments/assets/33485ab7-3352-4d2e-a899-f9447702114e" />
+### 💻 Giao diện người dùng (Client)
 
-Báo cáo:
+<img src="https://raw.githubusercontent.com/luuhoang-star/web_book_libro/main/images/client-home.png" alt="Giao diện client" width="600"/>
 
-[WD-19_DATN2025.pdf](https://github.com/user-attachments/files/21319903/WD-19_DATN2025.pdf)
+### 🧑‍💼 Giao diện quản trị (Admin)
+
+<img src="https://raw.githubusercontent.com/luuhoang-star/web_book_libro/main/images/admin-dashboard.png" alt="Giao diện admin" width="600"/>
+
+> 📌 *Lưu ý: nếu ảnh không hiển thị, hãy đảm bảo bạn đã upload ảnh vào repo theo đường dẫn `images/`.*
+
+---
+
+## ⚙️ Hướng dẫn cài đặt
+
+### 📋 Yêu cầu môi trường:
+- PHP >= 7.4 hoặc 8.x
+- Composer
+- MySQL / MariaDB
+- Node.js + npm (nếu dùng build frontend)
+- Laravel (nếu dự án dùng Laravel)
+- Web server (XAMPP, Laragon, Valet, ...)
+
+### 📥 Các bước cài đặt:
+
+```bash
+# 1. Clone source code
+git clone https://github.com/luuhoang-star/web_book_libro.git
+cd web_book_libro
+
+# 2. Cài đặt Composer packages
+composer install
+
+# 3. (Nếu dùng npm)
+npm install
+npm run dev
+
+# 4. Tạo file .env
+cp .env.example .env
+
+# 5. Tạo APP_KEY
+php artisan key:generate
+
+# 6. Cấu hình database trong file .env
+
+# 7. Migrate và seed database
+php artisan migrate --seed
+
+# 8. Chạy dự án
+php artisan serve
