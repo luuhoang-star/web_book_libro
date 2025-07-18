@@ -26,9 +26,10 @@
 <img width="1920" height="954" alt="admin" src="https://github.com/user-attachments/assets/d31e4ff1-0cce-4dca-b42e-038eb9d8d43d" />
 
 ---
-[Uploading WD-19_DATN2025 (1).pdf…]()
+
 
 Báo cáo:
+[WD-19_DATN2025.pdf](https://github.com/user-attachments/files/21320003/WD-19_DATN2025.pdf)
 
 ## ⚙️ Hướng dẫn cài đặt
 
