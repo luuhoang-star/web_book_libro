@@ -20,4 +20,5 @@ Các chức năng trang quản trị:
 <img width="1920" height="954" alt="admin" src="https://github.com/user-attachments/assets/33485ab7-3352-4d2e-a899-f9447702114e" />
 
 Báo cáo:
-[Uploading WD-19_DATN2025.pdf…]()
+
+[WD-19_DATN2025.pdf](https://github.com/user-attachments/files/21319903/WD-19_DATN2025.pdf)
